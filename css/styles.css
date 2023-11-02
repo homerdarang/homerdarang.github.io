@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* font-family: 'McLaren', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'McLaren', sans-serif;
+}
+
+/* 
+-----------------------
+Desktop Navigation
+----------------------- 
+*/
+.nav-list {
+    background: transparent;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.nav-menu * {
+    list-style: none;
+}
+
+.nav-menu a {
+    color: #3D3C42;
+    display: flex;
+    align-items: center;
+    background-color: #F99417;
+    margin-bottom: 1rem;
+    padding: 10px 10px 10px 10px;
+    transition: all ease-in 0.3s;
+    overflow: hidden;
+    border-radius: 50px;
+    width: 33px;
+    height: 33px;
+}
+
+.nav-menu .active {
+    background-color: #5D3891;
+    color: #fff;
+}
+
+.nav-menu li > a:hover {
+    background-color: #5D3891;
+    color: #fff;
+    width: 100%;
+}
+
+.nav-menu i {
+    margin-right: 1.3rem;
+}
+
+.nav-menu a i,
+.nav-menu a:focus i {
+  font-size: 1rem;
+}
+
+/* 
+----------------------- 
+Mobile Size Navigation
+----------------------- 
+*/
+
+@media ( width >= 991px) {
+    .close-btn {
+        display: none;
+    }
+}
+
+@media (width <= 991px) {
+    .nav-menu li > a {
+        width: 280px;
+    }
+}
+
+#main, #main-main {
+    color: #383c41 !important;
+}
+
+/* 
+-----------------------
+Hero
+----------------------- 
+*/
+#main {
+    background: url('../assets/imgs/covers3.png') top right no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#hero {
+    position: absolute;
+    top: 24rem;
+    left: 14rem;
+}
+
+#hero .developer {
+    color: #F99417;
+}
+
+#hero .social-links a {
+    color: #383c41;
+}
+
+#hero .social-links > a > i {
+    transition: all ease-in 0.2s;
+}
+
+#hero .social-links > a > i:hover {
+    color: #5D3891;
+    transform: scale(1.2);
+}
+
+/* 
+----------------------- 
+Hero Mobile Size
+----------------------- 
+*/
+@media ( width <= 768px) {
+    #hero {
+        text-align: center !important;
+    }
+}
+
+@media ( width <= 576px) {
+    #hero {
+        left: 9rem;
+    }
+}
+
+/* ------  xs size devices ----- */
+@media ( width <= 450px) {
+    #hero {
+        left: 6rem;
+    }
+}
+
+/* 
+----------------------- 
+About
+----------------------- 
+*/
+#about .profile-img {
+    width: 70%;
+}
+
+#about h3 {
+    font-weight: 700 !important;
+}
+
+/* #about p:last-child {
+margin-bottom: 0;
+} */
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+    display: block !important;
+}
+  
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #45505b;
+}
+  
+.section-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+  
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #5D3891;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+
+#about .sub-title {
+    color: #F99417;
+}
+.about-me {
+    font-size: 1.2rem;
+}
+
+.resume {
+    background-color: #F99417;
+    color: #fff;
+}
+.resume:hover {
+    background-color: #5D3891;
+    color: #fff;
+}
+
+/* 
+----------------------- 
+About Mobile Navigation
+----------------------- 
+*/
+@media (width <= 991px) {
+    #about .profile-img {
+        width: 50%;
+    }
+
+    .row-section {
+        text-align: center !important;
+    }
+
+    .about-me {
+        padding: 0 50px;
+        font-size: 1rem;
+    }
+}
+
+/* 
+----------------------- 
+Skills
+----------------------- 
+*/
+.my-skills {
+    background-color: #F5F5F5;
+    border: 1px solid #E8E2E2;
+    padding: 30px;
+}
+
+#skills .my-skills .tools {
+    /* color: #F99417; */
+    color: #5D3891;
+}
+
+/* #skills .my-skills .u-list > li {
+    list-style: none;
+    display: grid;
+    align-items: center;
+} */
+
+#skills .my-skills .p-list {
+    margin: 0;
+}
+
+/* 
+----------------------- 
+Projects
+----------------------- 
+*/
+#project img.cover {
+    width: 20rem !important;
+    margin: 15px auto;
+}
+
+#project .tech-used {
+    color: #5D3891;
+    color: #F99417;
+}
+
+.live, .source {
+    background-color: #5D3891;
+    color: #fff;
+}
+
+.live:hover, .source:hover {
+    background-color: #391C64;
+    color: #fff;
+}
+
+/* 
+----------------------- 
+Projects Mobile Navigation
+----------------------- 
+*/
+@media (width <= 991px) {
+    #project .card {
+        margin: 16px 0 !important;
+    }
+
+    #project .card-body {
+        padding: 15px 50px;
+    }
+}
+
+
+/* 
+----------------------- 
+Contact
+----------------------- 
+*/
+#contact {
+    margin: 8rem 0;
+    /* padding: 2rem !important; */
+    /* border: 1px solid #bdbfc5; */
+}
+
+::placeholder {
+    color: #5D3891 !important;
+    font-style: italic !important;
+    opacity: 0.4 !important;
+}
+
+#contact .text-name {
+    /* padding: 0 16px !important; */
+    padding: 1rem !important;
+}
+
+#contact .btn-submit {
+    background-color: #5D3891;
+    color: #fff;
+    padding: 1rem 1.3rem;
+}
+
+#contact .btn-submit:hover {
+    background-color: #391C64;
+    color: #fff;
+}
+
+#contact #form {
+    width: 50% !important;
+}
+
+.error-message, .name-error-message {
+    font-size: 13px;
+    color: #cc0024;
+}
+/* 
+----------------------- 
+Contact Mobile Navigation
+----------------------- 
+*/
+
+@media (width <= 768px) {
+    #contact #form {
+        width: 70% !important;
+    }
+}
+
+
+/* 
+----------------------- 
+Footer
+----------------------- 
+*/
+#footer {
+    background-color: #F5F5F5;
+    border-width: 5px #6E6A7D;
+    border-top-style: dashed;
+    margin: 0 !important;
+    padding: 32px;
+    color: #6e6a7d !important;
+}
+
+#footer .footer > p {
+    text-transform: uppercase;
+}
+
+#footer ul > li {
+    list-style: none;
+}
+
+#footer ul > li > a {
+    text-decoration: none;
+}
+
+#footer ul li a > i {
+    color: #6E6A7D;
+    transition: all ease-in 0.2s;
+}
+
+#footer a i:hover {
+    color: #5D3891;
+    transform: scale(1.1);
+}
+
+#footer .bootstrap-icn {
+    color: #5D3891 !important;
+}
+/* 
+----------------------- 
+Footer Mobile Navigation
+----------------------- 
+*/
+@media (width <= 991px) {
+    #footer > p {
+        font-size: 1.3rem !important;
+        padding: 0 70px !important;
+    }
+}
+
+
+
+/* 
+----------------------- 
+============== Hidden and Show classes ==============
+----------------------- 
+*/
+#success, #failed, #validation {
+    background-color: #F5F5F5;
+    padding: 50px;
+    position: absolute;
+    top: 245rem;
+    left: 0;
+    right: 0;
+    width: 350px;
+    margin: auto;
+    z-index: 10;
+}
+
+.overlay {
+    position: absolute;
+    top: 225rem;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+  }
+  
+
+.hidden {
+    display: none !important;
+}
+
+.red-input {
+    border: 1px solid #cc0024;
+}
+
+/* 
+----------------------- 
+Overlay Mobile navigation
+----------------------- 
+*/
+@media (width <= 1199px) {
+    #success, #failed, #validation {
+        top: 230rem !important;
+    }
+
+    .overlay {
+        height: 42rem;
+    }
+}
+
+@media (width <= 991px) {
+    #success, #failed, #validation {
+        top: 350rem !important;
+    }
+
+    .overlay {
+        top: 330rem !important;
+    }
+}
+
+@media (width <= 767px) {
+    #success, #failed, #validation {
+        top: 333rem !important;
+    }
+
+    .overlay {
+        top: 325rem !important;
+    }
+}
+
+@media (width <= 575px) {
+    #success, #failed, #validation {
+        top: 355rem !important;
+    }
+
+    .overlay {
+        top: 337rem !important;
+    }
+}
+
