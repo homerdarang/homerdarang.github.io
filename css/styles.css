@@ -87,7 +87,7 @@ Mobile Size Navigation
 
 @media (width <= 991px) {
     .nav-menu li > a {
-        width: 280px;
+        width: 180px;
     }
 }
 
@@ -254,7 +254,9 @@ Skills
 .my-skills {
     background-color: #F5F5F5;
     border: 1px solid #E8E2E2;
-    padding: 30px;
+    /* padding: 30px; */
+    width: 90%;
+    margin: 0 auto;
 }
 
 #skills .my-skills .tools {
@@ -277,6 +279,16 @@ Skills
 Projects
 ----------------------- 
 */
+#project {
+    /* width: 90%; */
+    margin: 0 auto;
+}
+
+#project .project-in {
+    width: 90%;
+    margin: 0 auto;
+}
+
 #project img.cover {
     width: 20rem !important;
     margin: 15px auto;
@@ -353,6 +365,11 @@ Contact
 .error-message, .name-error-message {
     font-size: 13px;
     color: #cc0024;
+}
+
+#contact .js-validation {
+    flex-direction: column !important;
+    margin: 0 auto !importan;
 }
 /* 
 ----------------------- 
@@ -501,4 +518,6 @@ Overlay Mobile navigation
         top: 337rem !important;
     }
 }
+
+
 
