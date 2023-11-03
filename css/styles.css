@@ -255,7 +255,7 @@ Skills
     background-color: #F5F5F5;
     border: 1px solid #E8E2E2;
     /* padding: 30px; */
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -279,16 +279,6 @@ Skills
 Projects
 ----------------------- 
 */
-#project {
-    /* width: 90%; */
-    margin: 0 auto;
-}
-
-#project .project-in {
-    width: 90%;
-    margin: 0 auto;
-}
-
 #project img.cover {
     width: 20rem !important;
     margin: 15px auto;
@@ -521,3 +511,11 @@ Overlay Mobile navigation
 
 
 
+.title-section {
+    /* position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important; */
+    display: grid;
+    place-items: center;
+}
