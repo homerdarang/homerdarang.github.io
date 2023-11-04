@@ -34,20 +34,20 @@ function sendMail() {
     const templateId = 'template_lmxug28';
 
     // Validation ============= >>>>>>>>>>>
-    if (params.email === '' || params.name === '' || !params.email.includes('@gmail') || !params.email.includes('@icloud')){
-        console.log('false');
-        // validate.classList.remove('hidden');
-        errorMsg.textContent = 'Please a valid email ( @gmail.com or @icloud.com )';
-        nameErrMsg.textContent = 'Please provide your name';
-        email.classList.add('red-input');
-        fullName.classList.add('red-input');
-        // overlayRemove();
-        return false;
-    } 
+    // if (params.email === '' || params.name === '' || !params.email.includes('@gmail') || !params.email.includes('@icloud')){
+    //     console.log('false');
+    //     // validate.classList.remove('hidden');
+    //     errorMsg.textContent = 'Please a valid email ( @gmail.com or @icloud.com )';
+    //     nameErrMsg.textContent = 'Please provide your name';
+    //     email.classList.add('red-input');
+    //     fullName.classList.add('red-input');
+    //     // overlayRemove();
+    //     return false;
+    // } 
 
-    errorMsg.textContent = '';
-    nameErrMsg.textContent = '';
-    return true;
+    // errorMsg.textContent = '';
+    // nameErrMsg.textContent = '';
+    // return true;
     
     emailjs.send(serviceId, templateId, params)
     .then ((res) => {
