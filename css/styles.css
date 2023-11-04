@@ -73,6 +73,10 @@ Desktop Navigation
   font-size: 1rem;
 }
 
+.body-offcanvas {
+    width: 280px !important;
+}
+
 /* 
 ----------------------- 
 Mobile Size Navigation
