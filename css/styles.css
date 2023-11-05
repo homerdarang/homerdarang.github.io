@@ -68,8 +68,7 @@ Desktop Navigation
     margin-right: 1.3rem;
 }
 
-.nav-menu a i,
-.nav-menu a:focus i {
+.nav-menu a i {
   font-size: 1rem;
 }
 
