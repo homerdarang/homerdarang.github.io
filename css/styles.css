@@ -89,6 +89,17 @@ Mobile Size Navigation
 }
 
 @media (width <= 991px) {
+    #main {
+        position: relative !important;
+    }
+
+    #hero {
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+    }
+
     .nav-menu li > a {
         width: 180px;
     }
@@ -369,7 +380,6 @@ Contact
 Contact Mobile Navigation
 ----------------------- 
 */
-
 @media (width <= 768px) {
     #contact #form {
         width: 70% !important;
