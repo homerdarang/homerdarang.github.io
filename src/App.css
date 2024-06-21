@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "IBM Plex Mono";
+}
+
+.nav--div {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.page-icon {
+  width: 2.5rem;
+}
+
+@media (width > 1024px) {
+  .hero-cover {
+      background: url("../public/background/xlBg.jpg") center/cover no-repeat;
+  }
+  .aboutme {
+      height: 550px !important;
+  }
+}
+
+@media (width <= 1024px){
+  .hero-cover {
+      background: url("../public/background/lgBg.jpg") center/cover no-repeat;
+  }
+}
+
+@media (width <= 768px){
+  .hero-cover {
+      background: url("../public/background/mediumBg.jpg") center/cover no-repeat fixed;
+  }
+  .aboutme {
+      height: 400px !important;
+  }
+}
+
+@media (width <= 640px) {
+  .hero-cover {
+      background: url("../public/background/smBg.jpg") center/cover no-repeat fixed;
+  }
+  .aboutme {
+      height: 400px !important;
+  }
+}

@@ -1,0 +1,5 @@
+# Disables auto align codes
+**/*.html
+**/*.css
+**/*.jsx
+**/*.js
