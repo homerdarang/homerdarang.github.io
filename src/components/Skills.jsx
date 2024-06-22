@@ -35,7 +35,7 @@ function Skills() {
                                 Canva
                             </li>
                         </ul>
-                        <p className='font-extralight text-base lg:px-12 lg:text-balance lg:text-start md:px-1 px-10'>I prioritize straightforward content organization, elegant design patterns, and seamless interactions.</p>
+                        <p className='font-extralight text-base lg:px-14 text-pretty  md:px-1 px-10'>I prioritize straightforward content organization, elegant design patterns, and seamless interactions.</p>
                     </div>
                     <div className='mg:text-2xl text-xl font-medium lg:col-span-4 md:col-span-4 col-span-8'>
                         <h2 className='md:text-2xl text-lg'>Code</h2>
@@ -54,7 +54,7 @@ function Skills() {
                                 VsCode
                             </li>
                         </ul>
-                        <p className='font-extralight text-base lg:px-12 lg:text-balance lg:text-start md:px-1 px-10'>I enjoy coding projects from the ground up, crafting each element, and bringing creative ideas to life.</p>
+                        <p className='font-extralight text-base lg:px-14 text-pretty md:px-1 px-10'>I enjoy coding projects from the ground up, crafting each element, and bringing creative ideas to life.</p>
                     </div>
                     <div className='mg:text-2xl text-xl font-medium lg:col-span-4 md:col-span-4 col-span-8'>
                         <h2 className='md:text-2xl text-lg'>Others</h2>
@@ -73,7 +73,7 @@ function Skills() {
                                 GitHub
                             </li>
                         </ul>
-                        <p className='font-extralight text-base lg:px-12 lg:text-balance lg:text-start md:px-1 px-10'>I enjoy brainstorming new ideas and working on various projects while savoring a relaxing cup of coffee.</p>
+                        <p className='font-extralight text-base lg:px-14 text-pretty md:px-1 px-10'>I enjoy brainstorming new ideas and working on various projects while savoring a relaxing cup of coffee.</p>
                     </div>
                 </div>
             </div>
