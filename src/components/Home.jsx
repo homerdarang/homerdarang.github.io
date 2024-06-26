@@ -32,13 +32,10 @@ function Home() {
                             <div>
                                 <SocialMedia />
                             </div>
-                            <div className='grid'>
-                                <button className='text-yellow-200 border rounded-md md:px-8 md:py-3 px-3 py-2 hover:backdrop-blur md:hover:bg-white/15 hover:bg-black/20 active:scale-95 outline-none transition-all ease-linear mt-10 w-44'>
-                                    <a className='outline-none' href="#project">My Project</a>
-                                </button>
-                                <button className='my-5 border rounded-md md:px-8 md:py-3 px-3 py-2 hover:backdrop-blur md:hover:bg-white/15 hover:bg-black/20 active:scale-95 outline-none transition-all ease-linear w-60'>
-                                    <a className='font-light md:text-base text-sm outline-none' href="../../../public/doc/Homer_Darang_Resume_FE.pdf" download='Homer_Darang_Resume_FE.pdf'>Download Resume</a>
-                                </button>
+                            <div className='grid text-center'>
+                                <a className='text-yellow-200 border rounded-md md:px-8 md:py-3 px-3 py-2 hover:backdrop-blur md:hover:bg-white/15 hover:bg-black/20 active:scale-95 outline-none transition-all ease-linear mt-10 w-44' href="#project">My Project</a>
+
+                                <a className='my-5 border rounded-md md:px-8 md:py-3 px-3 py-2 hover:backdrop-blur md:hover:bg-white/15 hover:bg-black/20 active:scale-95 outline-none transition-all ease-linear w-56 font-light md:text-base text-sm' href="../../../public/doc/Homer_Darang_Resume_FE.pdf" download='Homer_Darang_Resume_FE.pdf'>Download Resume</a>
                             </div>
                         </div>
                         <div>

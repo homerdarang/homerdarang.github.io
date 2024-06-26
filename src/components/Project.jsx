@@ -25,20 +25,14 @@ function Project() {
                         </p>
                     </div>
                     <div className='flex flex-row gap-5 justify-center my-8'>
-                        <button className='border border-teal-400 px-4 py-2 text-yellow-200 rounded-md hover:backdrop-blur outline-none hover:bg-white/5 transition-all ease-linear active:border-yellow-200 flex place-items-center'>
-                            <a className='outline-none text-xs flex ' href="https://project-medic.vercel.app/" target="_blank" rel="noreferrer">
-                                Go live
-                                <span className='ms-2 text-xs'><GrShare /></span>
-                            </a>
-                        </button>
-                        <button className='border border-teal-400 px-4 py-2 text-yellow-200 rounded-md hover:backdrop-blur outline-none hover:bg-white/5 transition-all ease-linear active:border-yellow-200 flex place-items-center'>
-
-                            <a className='outline-none text-xs flex' href="https://github.com/homerdarang/Project-Medic" target='_blank' rel='noreferrer'>
-                                Source code
-                                <span className='ms-2 text-xs'><GoFileCode /></span>
-                            </a>
-
-                        </button>
+                        <a className='text-xs border border-teal-400 px-4 py-2 text-yellow-200 rounded-md hover:backdrop-blur outline-none hover:bg-white/5 transition-all ease-linear active:border-yellow-200 flex place-items-center' href="https://project-medic.vercel.app/" target="_blank" rel="noreferrer">
+                            Go live
+                            <span className='ms-2 text-xs'><GrShare /></span>
+                        </a>
+                        <a className='outline-none text-xs flex border border-teal-400 px-4 py-2 text-yellow-200 rounded-md hover:backdrop-blur hover:bg-white/5 transition-all ease-linear active:border-yellow-200 place-items-center' href="https://github.com/homerdarang/Project-Medic" target='_blank' rel='noreferrer'>
+                            Source code
+                            <span className='ms-2 text-xs'><GoFileCode /></span>
+                        </a>
                     </div>
                 </div>
             </div>
