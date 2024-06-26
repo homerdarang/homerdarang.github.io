@@ -21,7 +21,7 @@ function Project() {
                     <div className='h-56 md:w-2/3 w-full m-auto overflow-hidden border border-yellow-200 rounded-xl bg-cover bg-center bg-no-repeat my-6' style={{ backgroundImage: `url(${projectMedicImg})` }} alt=''></div>
                     <div className='md:w-2/3 md:m-auto'>
                         <p className='font-light'>
-                            Welcome to e-Konsulta &#8478;, your resource for free online consultations on baby health and wellness. Get expert advice and trustworthy information on infant care with the convenience of online booking. Schedule consultations with pediatric specialists and access resources on nutrition, sleep, and developmental milestones. We handle baby-related inquiries exclusively. Join us to nurture healthy, happy babies.
+                            Welcome to e-Konsulta &#8478;, your resource for free online consultations on baby health and wellness. Get expert advice and trustworthy information on infant care with the convenience of online booking. Schedule consultations with pediatric specialists and access resources on nutrition, sleep, and developmental milestones. We handle baby-related inquiries exclusively. Join us to nurture healthy, happy babies. Please note, this project is currently under development, and we are continually working to enhance our services and features. Join us to nurture healthy, happy babies.
                         </p>
                     </div>
                     <div className='flex flex-row gap-5 justify-center my-8'>

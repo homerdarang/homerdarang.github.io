@@ -152,7 +152,6 @@ const Contact = () => {
             sendto: 'homerdarang@icloud.com',
             replyTo,
             name,
-            // title,
             body,
             ishtml: 'false'
         };
