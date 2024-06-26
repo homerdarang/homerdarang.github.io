@@ -43,7 +43,7 @@
 
 @media (width <= 640px) {
   .hero-cover {
-      background: url("../public/background/smBg.jpg") center/cover no-repeat fixed;
+      background: url("../public/background/ssmBg.JPG") center/cover no-repeat fixed;
   }
   .aboutme {
       height: 400px !important;
